@@ -15310,7 +15310,7 @@ module.exports = function(Chart) {
 			// We also limit the maximum number of ticks to 11 which gives a nice 10 squares on
 			// the graph. Make sure we always have at least 2 ticks
 			var maxTicks = me.getTickLimit();
-			maxTicks = Math.max(2, maxTicks);
+			maxTicks = Math.max(8, maxTicks);
 
 			var numericGeneratorOptions = {
 				maxTicks: maxTicks,
